@@ -1,0 +1,75 @@
+const Service = () => {
+    return(
+        <div style={{backgroundColor: "rgb(255, 236, 165)", padding:"20px"}}>
+            <h3>Services</h3>
+            <div class="container bg-primary" style={{ padding: "20px" }}>
+                <div class="row align-items-center mt-4">
+                    <div class="col">
+                        <div class="card"  width="18rem">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzFemVOeH-Kwmr68kjYFMJEAlLbkdOqroakA&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                            <h5 class="card-title">C Programming Course</h5>
+                            <p class="card-text">A three-month course covering all the basics of C language and intermediate concepts.</p>
+                            <a href="#" class="btn btn-primary">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" width="18rem">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0l3BYveuPvQ_gsQWLOpptzw4CXPU94Q7_VQ&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                            <h5 class="card-title">C++ Programming Course</h5>
+                            <p class="card-text">A four-month course covering all basics of C++ and data structures using C++.</p>
+                            <a href="#" class="btn btn-primary">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card"  width="18rem">
+                            <img src="data:image/png;base64,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" class="card-img-top img.fluid" alt="..."/>
+                            <div class="card-body">
+                            <h5 class="card-title">Java Programming Course</h5>
+                            <p class="card-text">A four-month course involving object oriented concepts and database systems.</p>
+                            <a href="#" class="btn btn-primary">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center mt-4 ">
+                    <div class="col">
+                    <div class="card" width="18rem">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRukm9HtKSkVweLQZIt8lJlhRQ6SkBRXypeRg&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                            <h5 class="card-title">Javascript Programming Course</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" width="18rem">
+                            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                            <h5 class="card-title">React Programming Course</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card"  width="18rem">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWRRen_Kv5D_amw-FAiy8QLaIpDhA_AFGbcA&usqp=CAU" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                            <h5 class="card-title">Python Programming Course</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Service;
